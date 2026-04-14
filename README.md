@@ -503,6 +503,3 @@ Para colocar em produção:
 
 ISC - veja LICENSE para detalhes.
 
----
-
-**Última atualização:** 14 de Abril de 2026
