@@ -99,8 +99,8 @@ POST /cadastro
 Content-Type: application/json
 
 {
-  "nome": "Jean Ramalho",
-  "email": "jean@example.com",
+  "nome": "Clovis Exemplo",
+  "email": "clovis@example.com",
   "password": "senha123"
 }
 ```
@@ -111,8 +111,8 @@ Content-Type: application/json
   "message": "Usuário criado com sucesso!",
   "user": {
     "id": "507f1f77bcf86cd799439011",
-    "name": "Jean Ramalho",
-    "email": "jean@example.com"
+    "name": "Clovis Exemplo",
+    "email": "clovis@example.com"
   }
 }
 ```
@@ -134,7 +134,7 @@ POST /login
 Content-Type: application/json
 
 {
-  "email": "jean@example.com",
+  "email": "clovis@example.com",
   "password": "senha123"
 }
 ```
@@ -145,8 +145,8 @@ Content-Type: application/json
   "message": "Login realizado com sucesso!",
   "user": {
     "id": "507f1f77bcf86cd799439011",
-    "name": "Jean Ramalho",
-    "email": "jean@example.com",
+    "name": "Clovis Exemplo",
+    "email": "clovis@example.com",
     "password": "$2b$10$..."
   },
   "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
@@ -180,8 +180,8 @@ Authorization: Bearer SEU_TOKEN_JWT
   "users": [
     {
       "id": "507f1f77bcf86cd799439011",
-      "name": "Jean Ramalho",
-      "email": "jean@example.com",
+      "name": "Clovis Exemplo",
+      "email": "clovis@example.com",
       "password": "$2b$10$..."
     }
   ]
@@ -309,8 +309,8 @@ apiNode/
 ```json
 {
   "_id": ObjectId("507f1f77bcf86cd799439011"),
-  "email": "jean@example.com",
-  "name": "Jean Ramalho",
+  "email": "clovis@example.com",
+  "name": "Clovis Exemplo",
   "password": "$2b$10$3pK33wnvTqlTpZU2JRsnGOgu4IiwvFJnLKIg5R/aWjW2V9jytXejW"
 }
 ```
@@ -408,8 +408,8 @@ Não há validação de força de senha. Em produção, implemente:
 curl -X POST http://localhost:3000/cadastro \
   -H "Content-Type: application/json" \
   -d '{
-    "nome": "Jean Ramalho",
-    "email": "jean@example.com",
+    "nome": "Clovis Exemplo",
+    "email": "clovis@example.com",
     "password": "senha123"
   }'
 
@@ -417,7 +417,7 @@ curl -X POST http://localhost:3000/cadastro \
 curl -X POST http://localhost:3000/login \
   -H "Content-Type: application/json" \
   -d '{
-    "email": "jean@example.com",
+    "email": "clovis@example.com",
     "password": "senha123"
   }'
 
@@ -495,7 +495,6 @@ Para colocar em produção:
 
 - **Autor:** Jean Ramalho
 - **Email:** jeanramalho.dev@gmail.com
-- **GitHub:** https://github.com/jeanramalho/apiNode
 
 ---
 
