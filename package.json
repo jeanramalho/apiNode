@@ -5,8 +5,8 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "dev": "node --watch serve.js",
-    "start": "node serve.js",
+    "dev": "node --watch server.js",
+    "start": "node server.js",
     "prisma:studio": "prisma studio --schema=prisma/schema.prisma",
     "prisma:push": "prisma db push --schema=prisma/schema.prisma",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -23,8 +23,9 @@
   },
   "homepage": "https://github.com/jeanramalho/apiNode#readme",
   "dependencies": {
-    "@prisma/client": "^7.7.0",
+    "@prisma/client": "6.19.3",
     "bcrypt": "^6.0.0",
+    "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "jsonwebtoken": "^9.0.3"
   },

@@ -1,3 +1,4 @@
+import 'dotenv/config'
 import express from 'express'
 import publicRoutes from './routes/public.js'
 
